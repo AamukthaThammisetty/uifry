@@ -1,6 +1,8 @@
-import hero1 from "../assets/hero1.png"
+import home from "../assets/hero1.png"
+import home2 from "../assets/hero2.png"
 import { FaArrowRight } from "react-icons/fa";
-import { IoIosPlayCircle } from "react-icons/io";
+import { FaRegCirclePlay } from "react-icons/fa6";
+
 const Home = () => {
   return (
     <div>
@@ -19,20 +21,20 @@ const Home = () => {
                       
                       <a href="javascript:void(0)" className="flex items-center justify-center gap-x-1 py-2 px-4 t  text-gray-700 hover:text-gray-900">
                              
-                      <IoIosPlayCircle />
+                      <FaRegCirclePlay />
                               Watch Video
                       </a>
 
                     </div>
                     <div>
-                      <img src={hero1} className="w-full mx-auto sm:w-10/12  lg:w-full" />
+                      <img src={home} className="w-full mx-auto sm:w-10/12  lg:w-full" />
                       
                     </div>
 
                    
                 </div>
                 <div className="flex-1 text-center lg:mt-0 lg:ml-3">
-                    <img src="src\assets\hero2.png" className="w-full mx-auto sm:w-10/12 h-800 lg:w-[3000px] lg:h-[900px]" />
+                    <img src={home2} className="w-full mx-auto sm:w-10/12 h-800  " />
                 </div>
             </section>
     </div>

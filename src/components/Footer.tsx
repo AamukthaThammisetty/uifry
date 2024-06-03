@@ -1,5 +1,5 @@
-
-
+import { CiMail } from "react-icons/ci";
+import { FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
 
   const footerNavs = [
@@ -83,9 +83,20 @@ const Footer = () => {
         <div className="flex-1">
           <div className="max-w-xs">
             <img src="./logo.png" className="w-32" alt="Logo" />
-            <p className="leading-relaxed mt-2 text-[15px]">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
+            <div pt-10>
+              <div className="flex gap-2 items-center"> 
+                <div className="text-[#FF5555]">
+                  <CiMail />
+                </div>
+                <p className="text-black">help@frybix.com</p>
+              </div>
+              <div className="flex gap-2 items-center">
+                <div className="text-[#FF5555]">
+                  <FaPhoneAlt />
+                </div>
+                <p className="text-black">+123445667889</p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="flex-1 mt-10 space-y-6 items-center justify-between sm:flex md:space-y-0 md:mt-0">

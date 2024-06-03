@@ -6,10 +6,9 @@ const Faqs = () => {
       <div className="bg-white py-6 sm:py-8 lg:py-12">
   <div className="mx-auto max-w-screen-xl px-4 md:px-8">
   
-    <div className="mb-10 md:mb-16">
+    <div className="mb-8 md:mb-12">
       <p className='text-xl text-[#FF5555]'>FAQ</p>
-      <h2 className="mb-4 w-96 text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Frequently asked questions</h2>
-
+      <h2 className="mb-2 w-96 text-4xl  text-black font-extrabold md:mb-3 lg:text-4xl">Frequently Asked Questions</h2>
     </div>
   
 
