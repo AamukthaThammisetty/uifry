@@ -9,7 +9,7 @@ import DownloadPage from "./components/DownloadPage"
 import Home from "./components/Home"
 export default function App() {
   return (
-    <>
+    <div className="font-Space">
       <Header/>
       <Home/>
       <Features/>
@@ -19,6 +19,6 @@ export default function App() {
       <Faqs/>
       <DownloadPage/>
       <Footer/>
-    </>
+    </div>
   )
 }
