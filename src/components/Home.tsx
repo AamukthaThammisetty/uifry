@@ -1,4 +1,4 @@
-
+import hero1 from "../assets/hero1.png"
 import { FaArrowRight } from "react-icons/fa";
 import { IoIosPlayCircle } from "react-icons/io";
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
 
                     </div>
                     <div>
-                      <img src="src\assets\hero1.png" className="w-full mx-auto sm:w-10/12  lg:w-full" />
+                      <img src={hero1} className="w-full mx-auto sm:w-10/12  lg:w-full" />
                       
                     </div>
 
