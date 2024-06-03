@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# uifry
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Modern and responsive UI design.
+- Integration with Tailwind CSS for rapid styling.
+- TypeScript for type-safe coding.
+- Follows the design guidelines provided in the Figma prototype.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+git clone https://github.com/AamukthaThammisetty/uifry.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate into the project directory:
+
+```
+cd uifry
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+## Usage
+
+To start the development server:
+
+```
+npm start
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+## Figma Reference
+
+The design of this project is based on [this Figma prototype](https://www.figma.com/proto/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=101-79&m=dev&scaling=min-zoom&page-id=0%3A1).
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
